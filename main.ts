@@ -7,7 +7,5 @@ namespace detector {
     //% blockId="test_color" block="%strip|show color %rgb=neopixel_colors" 
     //% weight=85 blockGap=8
     export function showColor(rgb: number) {
-        this.setAllRGB(rgb);
-        this.show();
     }
 }
