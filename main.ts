@@ -2,10 +2,24 @@
 namespace detector {
     //% blockId=show_number block="Show a number %num"
     export function showNumber(num: number = 0): void {
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        # . . . #
+        . # # # .
+        `);
     }
 
     //% blockId="test_color" block="%strip|show color %rgb"
     //% weight=85 blockGap=8
     export function showColor(rgb: number) {
+    basic.showLeds(`
+        . . . . .
+        . # . # .
+        . . . . .
+        # . . . #
+        . # # # .
+        `);
     }
 }
