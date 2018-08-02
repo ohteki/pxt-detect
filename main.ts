@@ -4,7 +4,7 @@ namespace detector {
 
     //% blockId=show_number block="Show a number %num"
     export function showNumber(num: number = 0): void {
-      initialValue = num
+      return num
     }
 
     //% blockId=sbrick_measured_value
