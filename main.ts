@@ -5,16 +5,6 @@ namespace detector {
       return num
     }
 
-    //% blockId=Evaluating_measured_value
-    //% block="%num|changed %f| from %init"
-    export function Evaluating(num: number, f: number, init: number): number{
-      if(num < init*(100-f)/100 || init*(100+f)/100 < num){
-        return 1
-      }else{
-        return 0
-      }
-    }
-
     //% blockId=Evaluating_measured_value_boolean
     //% block="%num|changed %f| from %init"
     export function measuredValue(num: number = 0, f: number = 10, init: number = initialValue): boolean{
