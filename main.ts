@@ -1,5 +1,5 @@
-//% weight=70 icon="\uf1ec" color=#4ab500 block="Detector"
-namespace detector {
+//% weight=70 icon="\uf1ec" color=#4ab500 block="detect"
+namespace detect {
     //% blockId=set_initial_value block="the initial value %num|of -"
     export function setInitialValue(num: number = 0): number {
       return num
