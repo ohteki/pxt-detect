@@ -11,7 +11,7 @@ namespace detector {
         `);
     }
 
-    //% blockId="neopixel_shift" block="%strip|shift pixels by %offset" blockGap=8
+    //% blockId="neopixel_shift" block="shift pixels by %offset" blockGap=8
     //% weight=40
     export function shift(offset: number = 1): void {
     basic.showLeds(`
