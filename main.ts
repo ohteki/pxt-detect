@@ -1,4 +1,4 @@
-//% weight=70 icon="\uf1ec" color=#00bbd7 block="Detector"
+//% weight=70 icon="\uf1ec" color=#4ab500 block="Detector"
 namespace detector {
     //% blockId=set_initial_value block="the initial value %num| of -"
     export function setInitialValue(num: number = 0): number {
