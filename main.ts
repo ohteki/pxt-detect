@@ -3,7 +3,7 @@ namespace detector {
     let initialValue = 0
 
     //% blockId=show_number block="Show a number %num"
-    export function showNumber(num: number = 0): void {
+    export function showNumber(num: number = 0): number {
       return num
     }
 
