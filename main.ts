@@ -11,15 +11,10 @@ namespace detector {
         `);
     }
 
-    //% blockId="neopixel_shift" block="shift pixels by %offset" blockGap=8
-    //% weight=40
-    export function shift(offset: number = 1): void {
-    basic.showLeds(`
-        . . . . .
-        . # . # .
-        . . . . .
-        # . . . #
-        . # # # .
-        `);
+    //% blockId=sbrick_measured_value
+    //% block="measured value" shim=sbrick::measuredValue
+    export function measuredValue(): number
+    {
+        return 0
     }
 }
