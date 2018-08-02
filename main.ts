@@ -4,7 +4,7 @@ namespace detector {
     export function showNumber(num: number = 0): void {
     }
 
-    //% blockId="test_color" block="%strip|show color %rgb=neopixel_colors"
+    //% blockId="test_color" block="%strip|show color %rgb"
     //% weight=85 blockGap=8
     export function showColor(rgb: number) {
     }
