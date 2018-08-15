@@ -2,7 +2,7 @@
 namespace detect {
   //% blockId=set_initial_value block="the initial value %num|of -"
   export function setInitialValue(num: number = 0): number {
-    serial.writeLine("measuredValue="+num.toString())
+    serial.writeLine("initialValue="+num.toString())
     return num
   }
 
